@@ -1,15 +1,26 @@
-# Banners - Portal Clientes Kroton
+# kroton-assets
 
-Imágenes de banners promocionales para el portal.
+Recursos estáticos (imágenes, logos, banners) para los proyectos de Kroton.
 
 ## Estructura
 
-Coloca las imágenes directamente en la raíz de este repositorio.
+```
+kroton-assets/
+├── portal-clientes/
+│   ├── banners/
+│   │   ├── desktop/
+│   │   └── mobile/
+│   ├── logos/
+│   └── emails/
+└── shared/
+    ├── logos/
+    └── icons/
+```
 
-## Formato de URL
+## Uso
 
-Una vez subido a GitHub, las imágenes se acceden con:
+Las imágenes se acceden via raw URL:
 
 ```
-https://raw.githubusercontent.com/krotondevops/banner/refs/heads/main/NOMBRE-DEL-ARCHIVO.jpg
+https://raw.githubusercontent.com/kroton-dev/kroton-assets/refs/heads/main/portal-clientes/banners/desktop/IMAGEN.jpg
 ```
